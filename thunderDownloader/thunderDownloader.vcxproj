@@ -129,7 +129,7 @@
     <PostBuildEvent>
       <Command>copy ..\thunderDownloader\XLDownload.dll ..\Release\outfile\XLDownload.dll
 copy ..\thunderDownloader\zlib1.dll ..\Release\outfile\zlib1.dll
-copy ..\Release\thunderDownloader.exe ..\Release\outfile\thunderDownloader.exe</Command>
+copy ..\Release\thunderDownloader.exe ..\Release\outfile\thunder.exe</Command>
     </PostBuildEvent>
     <PreBuildEvent>
       <Command>del /f /s /q ..\Release\*
